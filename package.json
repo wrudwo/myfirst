@@ -1,0 +1,20 @@
+{
+  "name": "myfirst",
+  "version": "1.0.0",
+  "description": "Hello. its my first project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "hi": "echo hi!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrudwo/myfirst.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wrudwo/myfirst/issues"
+  },
+  "homepage": "https://github.com/wrudwo/myfirst#readme"
+}
