@@ -2,9 +2,9 @@
   "name": "myfirst",
   "version": "1.0.0",
   "description": "Hello. its my first project.",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
-    "test": "node index.js",
+    "start": "node src/main.js",
     "hi": "echo hi!"
   },
   "repository": {
