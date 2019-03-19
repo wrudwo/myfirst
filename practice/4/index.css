@@ -1,0 +1,27 @@
+.wrapper{
+    display : grid;
+    grid-template-rows : 400px 40px;
+    grid-template-columns : 100px 100px 100px 100px;
+}
+.item1{
+    grid-column-start : 1;
+    grid-column-end : 5;
+    padding-top : 70px;   
+}
+
+#London {background-color : red;}
+#Paris {background-color : green;}
+#Tokyo {background-color : blue;}
+#Oslo {background-color : orange;}
+
+.wrapper *{
+    color:white
+}
+.wrapper > div {
+    background-color: #555;
+    text-align: center;
+}
+
+.wrapper > div:hover{
+    background-color : #777;
+}
