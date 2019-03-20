@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/wrudwo/myfirst/issues"
   },
-  "homepage": "https://github.com/wrudwo/myfirst#readme"
+  "homepage": "https://github.com/wrudwo/myfirst#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
