@@ -2,6 +2,13 @@ var express = require('express')
 var path = require('path')
 var app = express()
 
+app.set('view engine','pug')
+app.set('views', path.join(__dirname,'/view'))
+
+app.get('/', function(req, res){
+    res.render('index',{title : 'Hey', message :'Hello there!'})
+})
+
 app.get('/dd',function(req,res){
     res.sendFile(path.join(__dirname + '/index.html'))
 })
